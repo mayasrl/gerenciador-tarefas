@@ -150,5 +150,5 @@ A aplicação está configurada para deploy no Render. Para fazer o deploy:
 ---
 
 <p align="center">
-  Desenvolvido durante o curso da <strong>Rocketseat</strong> com <img src="src/heart.svg" width="14" alt="coração"/> por <strong>@mayasrl</strong>.
+  Desenvolvido durante o curso da <strong>Rocketseat</strong> com <img src="heart.svg" width="14" alt="coração"/> por <strong>@mayasrl</strong>.
 </p>
