@@ -2,6 +2,8 @@
 
 API completa para um sistema de gerenciamento de tarefas, desenvolvida com Node.js, Express e PostgreSQL. Permite criar contas, autenticar usuários, gerenciar tarefas, times e membros, com sistema de autorização baseado em roles (admin/member).
 
+---
+
 ## Funcionalidades
 
 - **Autenticação e Autorização:**
@@ -28,6 +30,8 @@ API completa para um sistema de gerenciamento de tarefas, desenvolvida com Node.
   - `/api/teams`: Gerenciamento de times.
   - `/api/tasks`: Gerenciamento de tarefas.
 
+---
+
 ## Tecnologias Utilizadas
 
 - **Backend:** Node.js
@@ -36,6 +40,8 @@ API completa para um sistema de gerenciamento de tarefas, desenvolvida com Node.
 - **Autenticação:** JSON Web Tokens (JWT)
 - **Testes:** Jest e Supertest
 - **Variáveis de Ambiente:** Dotenv
+
+---
 
 ## Estrutura do Projeto
 
@@ -54,6 +60,8 @@ API completa para um sistema de gerenciamento de tarefas, desenvolvida com Node.
 |-- package.json        # Dependências e scripts
 `-- README.md           # Documentação do projeto
 ```
+
+---
 
 ## Como Executar Localmente
 
@@ -86,6 +94,8 @@ API completa para um sistema de gerenciamento de tarefas, desenvolvida com Node.
    ```bash
    npm test
    ```
+
+---
 
 ## Endpoints da API
 
@@ -125,6 +135,8 @@ API completa para um sistema de gerenciamento de tarefas, desenvolvida com Node.
 - `POST /:id/status`: Alterar status da tarefa.
 - `GET /:id/history`: Buscar histórico de uma tarefa.
 
+---
+
 ## Deploy
 
 A aplicação está configurada para deploy no Render. Para fazer o deploy:
@@ -135,8 +147,8 @@ A aplicação está configurada para deploy no Render. Para fazer o deploy:
 4. O Render irá detectar o `package.json` e instalar as dependências com `npm install`.
 5. O comando de start `npm start` será executado automaticamente.
 
-## Autor
+---
 
-[Seu Nome](https://github.com/seu-usuario)
-
-
+<p align="center">
+  Desenvolvido durante o curso da <strong>Rocketseat</strong> com <img src="src/heart.svg" width="14" alt="coração"/> por <strong>@mayasrl</strong>.
+</p>
