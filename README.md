@@ -63,40 +63,6 @@ API completa para um sistema de gerenciamento de tarefas, desenvolvida com Node.
 
 ---
 
-## Como Executar Localmente
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/gerenciador-tarefas.git
-   cd gerenciador-tarefas
-   ```
-
-2. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
-
-3. **Configure as variáveis de ambiente:**
-   - Crie um arquivo `.env` na raiz do projeto.
-   - Copie o conteúdo de `.env.example` para `.env` e preencha com suas configurações de banco de dados e JWT secret.
-
-4. **Configure o banco de dados PostgreSQL:**
-   - Crie um banco de dados com o nome especificado em `.env`.
-   - A aplicação irá criar as tabelas automaticamente na primeira execução.
-
-5. **Execute a aplicação em modo de desenvolvimento:**
-   ```bash
-   npm run dev
-   ```
-   A API estará disponível em `http://localhost:3000`.
-
-6. **Execute os testes:**
-   ```bash
-   npm test
-   ```
-
----
-
 ## Endpoints da API
 
 ### Autenticação (`/api/auth`)
@@ -134,18 +100,6 @@ API completa para um sistema de gerenciamento de tarefas, desenvolvida com Node.
 - `POST /:id/assign`: Atribuir tarefa a um usuário.
 - `POST /:id/status`: Alterar status da tarefa.
 - `GET /:id/history`: Buscar histórico de uma tarefa.
-
----
-
-## Deploy
-
-A aplicação está configurada para deploy no Render. Para fazer o deploy:
-
-1. Crie uma conta no Render.
-2. Crie um novo "Web Service" e conecte seu repositório do GitHub.
-3. Configure as variáveis de ambiente no Render.
-4. O Render irá detectar o `package.json` e instalar as dependências com `npm install`.
-5. O comando de start `npm start` será executado automaticamente.
 
 ---
 
