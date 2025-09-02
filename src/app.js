@@ -1,4 +1,10 @@
 require('dotenv').config();
+/**
+ * API Gerenciador de Tarefas
+ * Desenvolvido por: Maria Silveira
+ * Data: 2025
+ */
+
 const express = require('express');
 const cors = require('cors');
 const { testConnection, initializeDatabase } = require('./config/database');
@@ -70,11 +76,11 @@ const initializeApp = async () => {
     }
 
     // Inicializar estrutura do banco de dados
-    const dbInitialized = await initializeDatabase();
-    if (!dbInitialized) {
-      console.error('❌ Falha na inicialização do banco de dados');
-      process.exit(1);
-    }
+    // const dbInitialized = await initializeDatabase();
+    // if (!dbInitialized) {
+    //   console.error('❌ Falha na inicialização do banco de dados');
+    //   process.exit(1);
+    // }
 
     console.log('✅ Aplicação inicializada com sucesso');
   } catch (error) {
@@ -100,4 +106,3 @@ if (require.main === module) {
 }
 
 module.exports = app;
-
