@@ -9,7 +9,7 @@
     "test:watch": "jest --watch"
   },
   "keywords": ["api", "tasks", "nodejs", "express", "postgresql"],
-  "author": "",
+  "author": "Maria Silveira",
   "license": "ISC",
   "description": "API para gerenciamento de tarefas com autenticação e autorização",
   "dependencies": {
